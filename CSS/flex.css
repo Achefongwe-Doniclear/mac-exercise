@@ -1,0 +1,98 @@
+.flexc {
+    display: flex;
+    justify-content: center;
+}
+
+.divs {
+    background-color: aliceblue;
+    padding: 40px;
+    border: 2px solid rgb(25, 0, 255);
+    margin: 30px;
+    border-left: 4px dotted black;
+    color: blue;
+}
+
+body {
+    background-repeat: no-repeat;
+    background: linear-gradient(red yellow);
+}
+
+.p1 {
+    border: 2px solid rgb(119, 116, 116);
+    padding: 20px;
+}
+
+.p2 {
+    border-bottom: 2px solid red;
+    padding: 20px;
+}
+
+.p3 {
+    border: 2px solid grey;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+.p4 {
+    border-left: 4px solid blue;
+    padding: 20px;
+    background-color: rgb(134, 235, 235);
+}
+
+.flexup {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  
+}
+
+img {
+    border-radius: 100%;
+}
+
+.di {
+    border-radius: 15px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    margin-right: 100px;
+    box-shadow: 2px 2px 2px rgb(70, 30, 30) ;
+    background: linear-gradient(to left,#764ba2,#667eea);
+}
+    
+.de {
+    border-radius: 15px;
+    width:50%;
+    padding: 10px;
+    text-align: center;
+    margin-left: 100px;
+    box-shadow: 2px 2px 2px;
+    box-shadow: 2px 2px 2px rgb(70, 30, 30) ;
+    background: linear-gradient(to left,#764ba2,#667eea);
+}
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+li{
+    padding-left: 2rem;
+    background-position: 0 0;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-image: url(../IMAGES/rice.jpg);
+    list-style: none;
+    color: rgb(49, 8, 161);
+    text-decoration: overline underline;
+    text-transform: lowercase;
+}
+.p0{
+    text-transform: uppercase;
+    line-height: 0.8;
+    text-shadow: 2px 2px blue;
+}
+.p5{
+    text-transform: capitalize;
+    text-indent: 50px;
+    letter-spacing: 10px;
+}
